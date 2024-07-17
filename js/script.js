@@ -271,59 +271,59 @@ function addToList() {
     emailInput.value = '';
     phoneInput.value = '';
 }
-
+const searchbtn = document.getElementById('searchPartsButton')
+searchbtn.addEventListener('click', () => searchParts())
 function searchParts() {
-    const mechanical = document.getElementById('mechanical').value;
-    const interior = document.getElementById('interior').value;
-    const individualBodyParts = document.getElementById('individualBodyParts').value;
-    const bodyPartAssemblies = document.getElementById('bodyPartAssemblies').value;
-
-    const selectedParts = [mechanical, interior, individualBodyParts, bodyPartAssemblies].filter(part => part !== '');
-
-    if (selectedParts.length === 0) {
-        alert('Please select at least one part.');
-        return;
-    }
-
-    const partsResults = document.getElementById('partsResults');
-    partsResults.innerHTML = ''; // Clear previous results
-
-    selectedParts.forEach(partNumber => {
-        const part = spares.flatMap(s => s.categories).flatMap(cat => Object.values(cat)).find(p => part.partNumber === partNumber);
-
-        if (part) {
+        const mechanical = document.getElementById('mechanical').value;
+        const interior = document.getElementById('interior').value;
+        const individualBodyParts = document.getElementById('individualBodyParts').value;
+        const bodyPartAssemblies = document.getElementById('bodyPartAssemblies').value;
+      
+        const selectedParts = [mechanical, interior, individualBodyParts, bodyPartAssemblies].filter(part => part !== '');
+      
+        if (selectedParts.length === 0) {
+          alert('Please select at least one part.');
+          return;
+        }
+      
+        const partsResults = document.getElementById('partsResults');
+        partsResults.innerHTML = ''; // Clear previous results
+      
+        selectedParts.forEach(partName => {
+          const part = spares.flatMap(s => s.categories).flatMap(cat => Object.values(cat)).find(p => p.partName === partName);
+      
+          if (part) {
             const card = document.createElement('div');
             card.className = 'part-card';
-
+      
             const img = document.createElement('img');
-            img.src = `images/${part.image}`;
+            img.src = `images/${part.image}`; // Set image path based on part.image property
             img.alt = part.partName;
             img.className = 'part-image';
-
+      
             const details = document.createElement('div');
             details.className = 'part-details';
             details.innerHTML = `
-                <h3>${part.partName}</h3>
-                <p>Price: Ksh ${getRandomPrice()}</p>
-                <p>Shop: ${part.shop || 'Not available'}</p>
-            `;
-
+                      <h3>${part.partName}</h3>
+                      <p>Price: Ksh ${getRandomPrice()}</p>
+                      <p>Shop: ${part.shop || 'Not available'}</p>
+                  `;
+      
             card.appendChild(img);
             card.appendChild(details);
             partsResults.appendChild(card);
-
+      
             // Optional: Add click functionality to show details in a popup or modal
             card.addEventListener('click', () => showPartDetails(part));
-        }
-    });
-
-    // Show the parts results
-    partsResults.style.display = 'flex';
-
-    // Hide the spare popup
-    closePopup('spare');
-}
-
+          }
+        });
+      
+        // Show the parts results
+        partsResults.style.display = 'flex';
+        // Hide the spare popup
+        closePopup('spare');
+      }
+      
 
 
 function showPartDetails(part) {
