@@ -158,7 +158,7 @@ function displaySpares(filteredSpares) {
 
     filteredSpares.forEach(spare => {
         const spareElement = document.createElement('div');
-        spareElement.className = 'spare';
+        spareElement.className = 'vehicle';
         spareElement.innerHTML = `
             <h3 onclick="showPopup(${spare.Id}, 'spare')">${spare.brand} ${spare.model} (${spare.year})</h3>
             <p>Type: ${spare.type}</p>
@@ -286,10 +286,10 @@ function searchParts() {
     }
 
     const partsResults = document.getElementById('partsResults');
-    partsResults.innerHTML = '';
+    partsResults.innerHTML = ''; // Clear previous results
 
     selectedParts.forEach(partNumber => {
-        const part = spares.flatMap(s => s.categories).flatMap(cat => Object.values(cat)).find(p => p.partNumber === partNumber);
+        const part = spares.flatMap(s => s.categories).flatMap(cat => Object.values(cat)).find(p => part.partNumber === partNumber);
 
         if (part) {
             const card = document.createElement('div');
@@ -323,6 +323,7 @@ function searchParts() {
     // Hide the spare popup
     closePopup('spare');
 }
+
 
 
 function showPartDetails(part) {
