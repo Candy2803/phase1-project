@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle and spare part price catalogue</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHozNm9xeWdzdmpiODA2YXN2bjI0Nzc0eTRhYXhlZ2RrNHhjNzg3NSZlcD12MV9pbnRlcm5naWZfYnlfaWQmY3Q9cw/3a3P0J6teWlfF1IbA4/giphy.webp" type="image/x-icon">
+</head>
+<body>
+    <div id="img" style="display: none;"><img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHozNm9xeWdzdmpiODA2YXN2bjI0Nzc0eTRhYXhlZ2RrNHhjNzg3NSZlcD12MV9pbnRlcm5naWZfYnlfaWQmY3Q9cw/3a3P0J6teWlfF1IbA4/giphy.webp" alt="Success"></div>
+    <div class="login-container" id="container">
+        <h2>VEHICLE CATALOGUE LOGIN</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit" id="btn">Login</button>
+        </form>
+        <div id="error" class="error">Invalid username or password</div>
+    </div>
+
+    <div id="main-content" class="main-content" style="display: none;">
+        <div class="sidebar">
+            <button id="home">Home</button>
+            <button id="vehicle-prices">Vehicle Prices</button>
+            <button id="spare-prices">Spare Part Prices</button>
+            <button id="user-creation">User Creation</button>
+            <button id="logout">Logout</button>
+        </div>
+        <div class="content" id="content">
+            <h2>Welcome to the Vehicle Catalogue</h2>
+            <p>Select an option from the sidebar to begin.</p>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <span class="close" onclick="closePopup('vehicle')">&times;</span>
+        <img id="popupImage" src="" alt="Vehicle Image">
+        <h2 id="popupName"></h2>
+        <p id="popupSpecs"></p>
+        <p id="popupPrice"></p>
+        <p id="popupShop"></p>
+    </div>
+    
+<div id="sparePopup" class="popup">
+    <span class="close" onclick="closePopup('spare')">&times;</span>
+    <h2>Select parts</h2>
+    <select id="mechanical">Mechancal parts</select>
+    <select id="interior">Interior parts</select>
+    <select id="individualBodyParts">Individual body parts and electricals</select>
+    <select id="bodyPartAssemblies">Body parts (assemblies)</select>
+    <button id="searchPartsButton" onclick="searchParts()">Search Parts</button>
+</div>
+
+<div id="partsResults" class="parts-results"></div>
+
+<div id="partPopup" class="popup">
+    <span class="close" onclick="closePopup('part')">&times;</span>
+    <img id="partPopupImage" src="" alt="Part Image">
+    <h2 id="partPopupName"></h2>
+    <p id="partPopupPrice"></p>
+    <p id="partPopupShop"></p>
+</div>
+
+    
+    
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

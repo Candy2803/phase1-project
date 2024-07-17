@@ -1,0 +1,288 @@
+{
+    "vehicles": [
+        {
+            "Id": "1",
+            "type": "SUV",
+            "brand": "Toyota",
+            "model": "Corolla Cross",
+            "year": "2023",
+            "shop": "Jiji Mall",
+            "image": "cross.jpeg"
+        },
+        {
+            "Id": "2",
+            "type": "SUV",
+            "brand": "Mazda",
+            "model": "CX-5",
+            "year": "2023",
+            "shop": "Jiji Mall",
+            "image": "cx-5.jpeg"
+        },
+        {
+            "Id": "3",
+            "type": "SUV",
+            "brand": "Mercedes Benz",
+            "model": "C200",
+            "year": "2023",
+            "shop": "Jiji Mall",
+            "image": "benzo.jpeg"
+        }
+        
+    ],
+    "spares": [
+        {
+            "Id": "1",
+            "type": "SUV",
+            "brand": "Toyota",
+            "model": "Corolla Cross",
+            "year": "2023",
+            "categories": {
+                "mechanical": [
+                    {
+                        "partName": "Brake Pad",
+                        "partNumber": "BP123",
+                        "image": "benzo.jpeg"
+                    },
+                    {
+                        "partName": "Brake Pad",
+                        "partNumber": "BP123",
+                        "image": "benzo.jpeg"
+                    },
+                    {
+                        "partName": "Brake Pad",
+                        "partNumber": "BP123",
+                        "image": "benzo.jpeg"
+                    },
+                    {
+                        "partName": "Brake Pad",
+                        "partNumber": "BP123",
+                        "image": "benzo.jpeg"
+                    },
+                    {
+                        "partName": "Brake Pad",
+                        "partNumber": "BP123",
+                        "image": "benzo.jpeg"
+                    }
+                   
+                ],
+                "interior": [
+                    {
+                        "partName": "Seat Cover",
+                        "partNumber": "SC456",
+                        "image": "benzo.jpeg"
+                    },
+                    {
+                        "partName": "Seat Cover",
+                        "partNumber": "SC456",
+                        "image": "benzo.jpeg"
+                    },
+                    {
+                        "partName": "Seat Cover",
+                        "partNumber": "SC456",
+                        "image": "benzo.jpeg"
+                    },
+                    {
+                        "partName": "Seat Cover",
+                        "partNumber": "SC456",
+                        "image": "benzo.jpeg"
+                    }
+                    
+                ],
+                "individualBodyParts": [
+                    {
+                        "partName": "Door Handle",
+                        "partNumber": "DH789",
+                        "image": "benzo.jpeg"
+                    },
+                    {
+                        "partName": "Door Handle",
+                        "partNumber": "DH789",
+                        "image": "benzo.jpeg"
+                    },
+                    {
+                        "partName": "Door Handle",
+                        "partNumber": "DH789",
+                        "image": "benzo.jpeg"
+                    },
+                    {
+                        "partName": "Door Handle",
+                        "partNumber": "DH789",
+                        "image": "door_handle.jpeg"
+                    }
+                    
+                ],
+                "electricals": [
+                    {
+                        "partName": "Headlight",
+                        "partNumber": "HL101",
+                        "image": "headlight.jpeg"
+                    },
+                    {
+                        "partName": "Headlight",
+                        "partNumber": "HL101",
+                        "image": "headlight.jpeg"
+                    },
+                    {
+                        "partName": "Headlight",
+                        "partNumber": "HL101",
+                        "image": "headlight.jpeg"
+                    },
+                    {
+                        "partName": "Headlight",
+                        "partNumber": "HL101",
+                        "image": "headlight.jpeg"
+                    }
+                   
+                ],
+                "bodyPartAssemblies": [
+                    {
+                        "partName": "Front Bumper",
+                        "partNumber": "FB202",
+                        "image": "front_bumper.jpeg"
+                    },
+                    {
+                        "partName": "Front Bumper",
+                        "partNumber": "FB202",
+                        "image": "front_bumper.jpeg"
+                    },
+                    {
+                        "partName": "Front Bumper",
+                        "partNumber": "FB202",
+                        "image": "front_bumper.jpeg"
+                    },
+                    {
+                        "partName": "Front Bumper",
+                        "partNumber": "FB202",
+                        "image": "front_bumper.jpeg"
+                    }
+                   
+                ]
+            }
+        },
+        {
+            "Id": "2",
+            "type": "SUV",
+            "brand": "Mazda",
+            "model": "CX-5",
+            "year": "2023",
+            "categories": {
+                "mechanical": [
+                    {
+                        "partName": "Oil Filter",
+                        "partNumber": "OF123",
+                        "image": "oil_filter.jpeg"
+                    },
+                    {
+                        "partName": "Oil Filter",
+                        "partNumber": "OF123",
+                        "image": "oil_filter.jpeg"
+                    },
+                    {
+                        "partName": "Oil Filter",
+                        "partNumber": "OF123",
+                        "image": "oil_filter.jpeg"
+                    },
+                    {
+                        "partName": "Oil Filter",
+                        "partNumber": "OF123",
+                        "image": "oil_filter.jpeg"
+                    }
+                    
+                ],
+                "interior": [
+                    {
+                        "partName": "Dashboard Cover",
+                        "partNumber": "DC456",
+                        "image": "dashboard_cover.jpeg"
+                    },
+                    {
+                        "partName": "Dashboard Cover",
+                        "partNumber": "DC456",
+                        "image": "dashboard_cover.jpeg"
+                    },
+                    {
+                        "partName": "Dashboard Cover",
+                        "partNumber": "DC456",
+                        "image": "dashboard_cover.jpeg"
+                    },
+                    {
+                        "partName": "Dashboard Cover",
+                        "partNumber": "DC456",
+                        "image": "dashboard_cover.jpeg"
+                    }
+                    
+                ],
+                "individualBodyParts": [
+                    {
+                        "partName": "Side Mirror",
+                        "partNumber": "SM789",
+                        "image": "side_mirror.jpeg"
+                    },
+                    {
+                        "partName": "Side Mirror",
+                        "partNumber": "SM789",
+                        "image": "side_mirror.jpeg"
+                    },
+                    {
+                        "partName": "Side Mirror",
+                        "partNumber": "SM789",
+                        "image": "side_mirror.jpeg"
+                    },
+                    {
+                        "partName": "Side Mirror",
+                        "partNumber": "SM789",
+                        "image": "side_mirror.jpeg"
+                    }
+                    
+                ],
+                "electricals": [
+                    {
+                        "partName": "Battery",
+                        "partNumber": "BT101",
+                        "image": "battery.jpeg"
+                    },
+                    {
+                        "partName": "Battery",
+                        "partNumber": "BT101",
+                        "image": "battery.jpeg"
+                    },
+                    {
+                        "partName": "Battery",
+                        "partNumber": "BT101",
+                        "image": "battery.jpeg"
+                    },
+                    {
+                        "partName": "Battery",
+                        "partNumber": "BT101",
+                        "image": "battery.jpeg"
+                    }
+                   
+                ],
+                "bodyPartAssemblies": [
+                    {
+                        "partName": "Rear Bumper",
+                        "partNumber": "RB202",
+                        "image": "rear_bumper.jpeg"
+                    },
+                    {
+                        "partName": "Rear Bumper",
+                        "partNumber": "RB202",
+                        "image": "rear_bumper.jpeg"
+                    },
+                    {
+                        "partName": "Rear Bumper",
+                        "partNumber": "RB202",
+                        "image": "rear_bumper.jpeg"
+                    },
+                    {
+                        "partName": "Rear Bumper",
+                        "partNumber": "RB202",
+                        "image": "rear_bumper.jpeg"
+                    }
+                    
+                ]
+            }
+        }
+       
+    ]
+}
