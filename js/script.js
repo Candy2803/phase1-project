@@ -258,12 +258,25 @@ document.addEventListener("DOMContentLoaded", () => {
     const emailInput = document.getElementById("email");
     const phoneInput = document.getElementById("phone");
   
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const phonePattern = /^\d{10}$/;
+  
     if (
       nameInput.value.trim() === "" ||
       emailInput.value.trim() === "" ||
       phoneInput.value.trim() === ""
-    ){
+    ) {
       alert("Please fill in all fields");
+      return;
+    }
+  
+    if (!emailPattern.test(emailInput.value)) {
+      alert("Please enter a valid email address");
+      return;
+    }
+  
+    if (!phonePattern.test(phoneInput.value)) {
+      alert("Please enter a valid 10-digit phone number");
       return;
     }
   
@@ -276,6 +289,7 @@ document.addEventListener("DOMContentLoaded", () => {
     emailInput.value = "";
     phoneInput.value = "";
   }
+  
   
   function searchParts() {
     const selectedParts = [
