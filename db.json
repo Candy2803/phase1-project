@@ -26,8 +26,160 @@
             "year": "2023",
             "shop": "Jiji Mall",
             "image": "benzo.jpeg"
+        },
+        {
+            "Id": "4",
+            "type": "suv",
+            "brand": "Subaru",
+            "model": "forester",
+            "year": "2020",
+            "shop": "jiji mall",
+            "image": "subaru.jpeg"
+        },
+        {
+            "Id": "5",
+            "type": "suv",
+            "brand": "honda",
+            "model": "crv",
+            "year": "2020",
+            "shop": "jiji mall",
+            "image": "honda.jpeg"
+        },
+        {
+            "Id": "6",
+            "type": "suv",
+            "brand": "Mazda",
+            "model": "premacy",
+            "year": "2020",
+            "shop": "jiji mall",
+            "image": "premacy.jpeg"
+        },
+        {
+            "Id": "7",
+            "type": "suv",
+            "brand": "Volkswagen",
+            "model": "tiguan",
+            "year": "2024",
+            "shop": "jiji mall",
+            "image": "tiguan.jpeg"
+        },
+        {
+            "Id": "8",
+            "type": "suv",
+            "brand": "Audi",
+            "model": "Q3",
+            "year": "2024",
+            "shop": "jiji mall",
+            "image": "q3.jpeg"
+        },
+        {
+            "Id": "9",
+            "type": "suv",
+            "brand": "Range rover",
+            "model": "evoque",
+            "year": "2024",
+            "shop": "jiji mall",
+            "image": "range.jpeg"
+        },
+        {
+            "Id": "10",
+            "type": "suv",
+            "brand": "Land cruiser",
+            "model": "v8",
+            "year": "2024",
+            "shop": "jiji mall",
+            "image": "v8.jpeg"
+        },
+        {
+            "Id": "11",
+            "type": "suv",
+            "brand": "Land cruiser",
+            "model": "tx",
+            "year": "2024",
+            "shop": "jiji mall",
+            "image": "tx.jpeg"
+        },
+        {
+            "Id": "12",
+            "type": "suv",
+            "brand": "BMW",
+            "model": "X6",
+            "year": "2020",
+            "shop": "jiji mall",
+            "image": "x6.jpeg"
+        },
+        {
+            "Id": "13",
+            "type": "suv",
+            "brand": "Jaguar",
+            "model": "F-pace",
+            "year": "2024",
+            "shop": "jiji mall",
+            "image": "f-pace.jpeg"
+        },
+        {
+            "Id": "14",
+            "type": "suv",
+            "brand": "Nissan",
+            "model": "rogue",
+            "year": "2022",
+            "shop": "jiji mall",
+            "image": "rogue.jpeg"
+        },
+        {
+            "Id": "15",
+            "type": "suv",
+            "brand": "Jaguar",
+            "model": "F-pace",
+            "year": "2024",
+            "shop": "Cheki",
+            "image": "f-pace.jpeg"
+        },
+        {
+            "Id": "16",
+            "type": "suv",
+            "brand": "Toyota",
+            "model": "corolla cross",
+            "year": "2023",
+            "shop": "jiji mall",
+            "image": "cross.jpeg"
+        },
+        {
+            "Id": "17",
+            "type": "suv",
+            "brand": "Toyota",
+            "model": "corolla cross",
+            "year": "2023",
+            "shop": "jiji mall",
+            "image": "cross.jpeg"
+        },
+        {
+            "Id": "18",
+            "type": "suv",
+            "brand": "Toyota",
+            "model": "corolla cross",
+            "year": "2023",
+            "shop": "jiji mall",
+            "image": "cross.jpeg"
+        },
+        {
+            "Id": "19",
+            "type": "suv",
+            "brand": "Toyota",
+            "model": "corolla cross",
+            "year": "2023",
+            "shop": "jiji mall",
+            "image": "cross.jpeg"
+        },
+        {
+            "Id": "20",
+            "type": "suv",
+            "brand": "Toyota",
+            "model": "corolla cross",
+            "year": "2023",
+            "shop": "jiji mall",
+            "image": "cross.jpeg"
         }
-        
     ],
     "spares": [
         {
@@ -39,121 +191,113 @@
             "categories": {
                 "mechanical": [
                     {
-                        "partName": "choose part"
+                        "partName": "Mechanical Parts"
                         
                     },
                     {
                         "partName": "Brake Pad",
                         "partNumber": "BP123",
-                        "image": "benzo.jpeg"
+                        "image": "brake.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
-                        "partName": "Brake Pad",
-                        "partNumber": "BP123",
-                        "image": "benzo.jpeg"
+                        "partName": "Engine Top Cover",
+                        "partNumber": "ETC123",
+                        "image": "etc.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
-                        "partName": "Brake Pad",
-                        "partNumber": "BP123",
-                        "image": "benzo.jpeg"
+                        "partName": "Battery",
+                        "partNumber": "B123",
+                        "image": "battery.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
-                        "partName": "Brake Pad",
-                        "partNumber": "BP123",
-                        "image": "benzo.jpeg"
+                        "partName": "Fuse Box",
+                        "partNumber": "FB123",
+                        "image": "fusebox.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
-                        "partName": "Brake Pad",
-                        "partNumber": "BP123",
-                        "image": "benzo.jpeg"
+                        "partName": "Intake Manifold",
+                        "partNumber": "IM123",
+                        "image": "intake.jpeg",
+                        "price": "Ksh 20,000"
                     }
                    
                 ],
                 "interior": [
                     {
-                        "partName": "choose part"
+                        "partName": "Interior parts"
                         
                     },
                     {
                         "partName": "Seat Cover",
                         "partNumber": "SC456",
-                        "image": "benzo.jpeg"
+                        "image": "scover.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
-                        "partName": "Seat Cover",
-                        "partNumber": "SC456",
-                        "image": "benzo.jpeg"
+                        "partName": "Steering Wheel Air Bag",
+                        "partNumber": "SWAB456",
+                        "image": "airbag.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
-                        "partName": "Seat Cover",
-                        "partNumber": "SC456",
-                        "image": "benzo.jpeg"
+                        "partName": "Engine ECU",
+                        "partNumber": "ECU456",
+                        "image": "ecu.jpeg",
+                        "price": "Ksh 20,000"
                     }
                     
                 ],
                 "individualBodyParts": [
                     {
-                        "partName": "choose part"
+                        "partName": "Individual body part"
                         
                     },
                     {
                         "partName": "Door Handle",
                         "partNumber": "DH789",
-                        "image": "benzo.jpeg"
+                        "image": "door.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
-                        "partName": "Door Handle",
-                        "partNumber": "DH789",
-                        "image": "benzo.jpeg"
+                        "partName": "Radiator Panel",
+                        "partNumber": "RP789",
+                        "image": "radiator.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
-                        "partName": "Door Handle",
-                        "partNumber": "DH789",
-                        "image": "door_handle.jpeg"
+                        "partName": "RHF Wing",
+                        "partNumber": "RHF789",
+                        "image": "rhf.jpeg",
+                        "price": "Ksh 20,000"
                     }
                     
                 ],
-                "electricals": [
-                    {
-                        "partName": "choose part"
-                        
-                    },
-                    {
-                        "partName": "Headlight",
-                        "partNumber": "HL101",
-                        "image": "headlight.jpeg"
-                    },
-                    {
-                        "partName": "Headlight",
-                        "partNumber": "HL101",
-                        "image": "headlight.jpeg"
-                    },
-                    {
-                        "partName": "Headlight",
-                        "partNumber": "HL101",
-                        "image": "headlight.jpeg"
-                    }
-                   
-                ],
                 "bodyPartAssemblies": [
                     {
-                        "partName": "choose part"
+                        "partName": "Body Assemblies part"
                         
                     },
                     {
                         "partName": "Front Bumper",
                         "partNumber": "FB202",
-                        "image": "front_bumper.jpeg"
+                        "image": "bumper.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
                         "partName": "Front Bumper",
                         "partNumber": "FB202",
-                        "image": "front_bumper.jpeg"
+                        "image": "front_bumper.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
                         "partName": "Front Bumper",
                         "partNumber": "FB202",
-                        "image": "front_bumper.jpeg"
+                        "image": "front_bumper.jpeg",
+                        "price": "Ksh 20,000"
                     }
                    
                 ]
@@ -168,111 +312,101 @@
             "categories": {
                 "mechanical": [
                     {
-                        "partName": "choose part"
+                        "partName": "Mechanical Parts"
                         
                     },
                     {
                         "partName": "Oil Filter",
                         "partNumber": "OF123",
-                        "image": "oil_filter.jpeg"
+                        "image": "oil_filter.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
                         "partName": "Oil Filter",
                         "partNumber": "OF123",
-                        "image": "oil_filter.jpeg"
+                        "image": "oil_filter.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
                         "partName": "Oil Filter",
                         "partNumber": "OF123",
-                        "image": "oil_filter.jpeg"
+                        "image": "oil_filter.jpeg",
+                        "price": "Ksh 20,000"
                     }
                     
                 ],
                 "interior": [
                     {
-                        "partName": "choose part"
+                        "partName": "Interior parts"
                         
                     },
                     {
                         "partName": "Dashboard Cover",
                         "partNumber": "DC456",
-                        "image": "dashboard_cover.jpeg"
+                        "image": "dashboard_cover.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
                         "partName": "Dashboard Cover",
                         "partNumber": "DC456",
-                        "image": "dashboard_cover.jpeg"
+                        "image": "dashboard_cover.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
                         "partName": "Dashboard Cover",
                         "partNumber": "DC456",
-                        "image": "dashboard_cover.jpeg"
+                        "image": "dashboard_cover.jpeg",
+                        "price": "Ksh 20,000"
                     }
                     
                 ],
                 "individualBodyParts": [
                     {
-                        "partName": "choose part"
+                        "partName": "Individual body part"
                         
                     },
                     {
                         "partName": "Side Mirror",
                         "partNumber": "SM789",
-                        "image": "side_mirror.jpeg"
+                        "image": "side_mirror.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
                         "partName": "Side Mirror",
                         "partNumber": "SM789",
-                        "image": "side_mirror.jpeg"
+                        "image": "side_mirror.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
                         "partName": "Side Mirror",
                         "partNumber": "SM789",
-                        "image": "side_mirror.jpeg"
+                        "image": "side_mirror.jpeg",
+                        "price": "Ksh 20,000"
                     }
                     
                 ],
-                "electricals": [
-                    {
-                        "partName": "choose part"
-                        
-                    },
-                    {
-                        "partName": "Battery",
-                        "partNumber": "BT101",
-                        "image": "battery.jpeg"
-                    },
-                    {
-                        "partName": "Battery",
-                        "partNumber": "BT101",
-                        "image": "battery.jpeg"
-                    },
-                    {
-                        "partName": "Battery",
-                        "partNumber": "BT101",
-                        "image": "battery.jpeg"
-                    }
-                   
-                ],
                 "bodyPartAssemblies": [
                     {
-                        "partName": "choose part"
+                        "partName": "Body Assemblies part"
                         
                     },
                     {
                         "partName": "Rear Bumper",
                         "partNumber": "RB202",
-                        "image": "rear_bumper.jpeg"
+                        "image": "rear_bumper.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
                         "partName": "Rear Bumper",
                         "partNumber": "RB202",
-                        "image": "rear_bumper.jpeg"
+                        "image": "rear_bumper.jpeg",
+                        "price": "Ksh 20,000"
                     },
                     {
                         "partName": "Rear Bumper",
                         "partNumber": "RB202",
-                        "image": "rear_bumper.jpeg"
+                        "image": "rear_bumper.jpeg",
+                        "price": "Ksh 20,000"
                     }
                     
                 ]

@@ -1,15 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vehicle and spare part price catalogue</title>
+    <title>Vehicle and Spare Part Price Catalogue</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHozNm9xeWdzdmpiODA2YXN2bjI0Nzc0eTRhYXhlZ2RrNHhjNzg3NSZlcD12MV9pbnRlcm5naWZfYnlfaWQmY3Q9cw/3a3P0J6teWlfF1IbA4/giphy.webp" type="image/x-icon">
 </head>
 <body>
-    <div id="img" style="display: none;"><img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHozNm9xeWdzdmpiODA2YXN2bjI0Nzc0eTRhYXhlZ2RrNHhjNzg3NSZlcD12MV9pbnRlcm5naWZfYnlfaWQmY3Q9cw/3a3P0J6teWlfF1IbA4/giphy.webp" alt="Success"></div>
+    <div id="img" style="display: none;">
+        <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHozNm9xeWdzdmpiODA2YXN2bjI0Nzc0eTRhYXhlZ2RrNHhjNzg3NSZlcD12MV9pbnRlcm5naWZfYnlfaWQmY3Q9cw/3a3P0J6teWlfF1IbA4/giphy.webp" alt="Success">
+    </div>
     <div class="login-container" id="container">
         <h2>VEHICLE AND SPARE PARTS PRICE <br>CATALOGUE LOGIN</h2>
         <form id="loginForm">
@@ -29,10 +30,34 @@
             <button id="logout">Logout</button>
         </div>
         <div class="content" id="content">
-            <h2>Welcome to the Vehicle Catalogue</h2>
-            <p>Select an option from the sidebar to begin.</p>
+            <div id="homeContent" class="content-section">
+                <h1>Welcome to the Vehicle Catalogue</h1>
+                <p>Select an option from the sidebar to begin.</p>
+            </div>
+            <div id="vehiclePricesContent" class="content-section" style="display: none;">
+                <h2>Vehicle Prices</h2>
+                <input type="text" id="vehicleSearch" placeholder="Search Vehicles" onkeyup="searchVehicles()" onfocus="this.value = ''">
+                <div id="vehicleResults"></div>
+            </div>
+            <div id="sparePricesContent" class="content-section" style="display: none;">
+                <h2>Spare Part Prices</h2>
+                <input type="text" id="spareSearch" placeholder="Search Spare Parts" onkeyup="searchSpares()" onfocus="this.value =''">
+                <div id="spareResults"></div>
+            </div>
+            <div id="userCreationContent" class="content-section" style="display: none;">
+                <h2>User Creation</h2>
+                <form id="userForm">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="text" id="phone" placeholder="Phone" required><br><br>
+                    <button class="btn1" type="button" onclick="randomPass()">Generate Password</button>
+                    <button class="btn2" type="button" onclick="addToList()">Add User</button>
+                </form>
+                <ul id="userList"></ul>
+            </div>
         </div>
     </div>
+
     <div id="popup" class="popup">
         <span class="close" onclick="closePopup('vehicle')">&times;</span>
         <img id="popupImage" src="" alt="Vehicle Image">
@@ -41,30 +66,29 @@
         <p id="popupPrice"></p>
         <p id="popupShop"></p>
     </div>
-    
-<div id="sparePopup" class="popup">
-    <span class="close" onclick="closePopup('spare')">&times;</span>
-    <h2>Select parts</h2>
-    <select id="mechanical">Mechancal parts</select>
-    <select id="interior">Interior parts</select>
-    <select id="individualBodyParts">Individual body parts and electricals</select>
-    <select id="bodyPartAssemblies">Body parts (assemblies)</select>
-    <button id="searchPartsButton">Search Parts</button>
-</div>
 
-<div id="partsResults" class="parts-results"></div>
+    <div id="sparePopup" class="popup">
+        <span class="close" onclick="closePopup('spare')">&times;</span>
+        <h2>Select parts</h2>
+        <select id="mechanical">Mechancal parts</select>
+        <select id="interior">Interior parts</select>
+        <select id="individualBodyParts">Individual body parts and electricals</select>
+        <select id="bodyPartAssemblies">Body parts (assemblies)</select>
+        <button id="searchPartsButton">Search Parts</button>
+    </div>
 
-<div id="partPopup" class="popup">
-    <span class="close" onclick="closePopup('part')">&times;</span>
-    <img id="partPopupImage" src="" alt="Part Image">
-    <h2 id="partPopupName"></h2>
-    <p id="partPopupPrice"></p>
-    <p id="partPopupShop"></p>
-</div>
+    <div id="partsResults" class="parts-results"></div>
+    <div id="selectedImages"></div>
 
-    
-    
-    
+
+    <div id="partPopup" class="popup">
+        <span class="close" onclick="closePopup('part')">&times;</span>
+        <img id="partPopupImage" src="" alt="Part Image">
+        <h2 id="partPopupName"></h2>
+        <p id="partPopupPrice"></p>
+        <p id="partPopupShop"></p>
+    </div>
+
     <script src="js/script.js"></script>
 </body>
 </html>
