@@ -224,21 +224,23 @@ body {
     font-weight: bold;
 }
 
+/* Card Layout for Spare Parts */
 .card {
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
     margin: 10px;
-    width: 200px;
+    width: calc(25% - 20px); /* Adjust width for responsive design */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: inline-block;
     vertical-align: top;
+    background-color: #fff; /* Ensure card background color */
 }
 
 .card-img {
     width: 100%;
     height: 140px;
-    object-fit: cover;
+    object-fit: cover; /* Ensure images cover the card area */
 }
 
 .card-details {
@@ -255,6 +257,26 @@ body {
     margin: 5px 0;
     color: #555;
 }
+
+/* Media Queries for Responsive Card Sizes */
+@media (max-width: 1024px) {
+    .card {
+        width: calc(33.333% - 20px); /* Adjust width for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); /* Adjust width for small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px); /* Adjust width for extra-small screens */
+    }
+}
+
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1024px) {
