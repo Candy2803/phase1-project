@@ -39,6 +39,10 @@
             "categories": {
                 "mechanical": [
                     {
+                        "partName": "choose part"
+                        
+                    },
+                    {
                         "partName": "Brake Pad",
                         "partNumber": "BP123",
                         "image": "benzo.jpeg"
@@ -67,9 +71,8 @@
                 ],
                 "interior": [
                     {
-                        "partName": "Seat Cover",
-                        "partNumber": "SC456",
-                        "image": "benzo.jpeg"
+                        "partName": "choose part"
+                        
                     },
                     {
                         "partName": "Seat Cover",
@@ -90,9 +93,8 @@
                 ],
                 "individualBodyParts": [
                     {
-                        "partName": "Door Handle",
-                        "partNumber": "DH789",
-                        "image": "benzo.jpeg"
+                        "partName": "choose part"
+                        
                     },
                     {
                         "partName": "Door Handle",
@@ -113,9 +115,8 @@
                 ],
                 "electricals": [
                     {
-                        "partName": "Headlight",
-                        "partNumber": "HL101",
-                        "image": "headlight.jpeg"
+                        "partName": "choose part"
+                        
                     },
                     {
                         "partName": "Headlight",
@@ -136,9 +137,8 @@
                 ],
                 "bodyPartAssemblies": [
                     {
-                        "partName": "Front Bumper",
-                        "partNumber": "FB202",
-                        "image": "front_bumper.jpeg"
+                        "partName": "choose part"
+                        
                     },
                     {
                         "partName": "Front Bumper",
@@ -168,9 +168,8 @@
             "categories": {
                 "mechanical": [
                     {
-                        "partName": "Oil Filter",
-                        "partNumber": "OF123",
-                        "image": "oil_filter.jpeg"
+                        "partName": "choose part"
+                        
                     },
                     {
                         "partName": "Oil Filter",
@@ -191,9 +190,8 @@
                 ],
                 "interior": [
                     {
-                        "partName": "Dashboard Cover",
-                        "partNumber": "DC456",
-                        "image": "dashboard_cover.jpeg"
+                        "partName": "choose part"
+                        
                     },
                     {
                         "partName": "Dashboard Cover",
@@ -214,9 +212,8 @@
                 ],
                 "individualBodyParts": [
                     {
-                        "partName": "Side Mirror",
-                        "partNumber": "SM789",
-                        "image": "side_mirror.jpeg"
+                        "partName": "choose part"
+                        
                     },
                     {
                         "partName": "Side Mirror",
@@ -237,9 +234,8 @@
                 ],
                 "electricals": [
                     {
-                        "partName": "Battery",
-                        "partNumber": "BT101",
-                        "image": "battery.jpeg"
+                        "partName": "choose part"
+                        
                     },
                     {
                         "partName": "Battery",
@@ -260,9 +256,8 @@
                 ],
                 "bodyPartAssemblies": [
                     {
-                        "partName": "Rear Bumper",
-                        "partNumber": "RB202",
-                        "image": "rear_bumper.jpeg"
+                        "partName": "choose part"
+                        
                     },
                     {
                         "partName": "Rear Bumper",
