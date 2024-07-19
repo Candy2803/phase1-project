@@ -64,7 +64,7 @@ on filling the details the email and phone number input will be validated and if
 2. copy the link given after clicking the green button
 ![screenshot](./images/Screenshot%202024-07-18%20at%2021.55.34.png)
 
-3. Next open your terminal and type git clone (link that you copied) ie: git clone git@github.com:Candy2803/Wk-2-code-challenge.git
+3. Next open your terminal and type git clone (link that you copied) ie: git clone git@github.com:Candy2803/phase1-project.git
 
 HOORAH YOU DID IT. You have successfully cloned my repo to your local machine.
 
