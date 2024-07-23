@@ -9,7 +9,7 @@
 - [web-page](#web-page)
 - [Installation](#Installation)
 
-## short description
+## Short description
 
 This is a website where the user compares prices of cars and spare parts from different shops 
 
