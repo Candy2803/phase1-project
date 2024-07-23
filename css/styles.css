@@ -9,6 +9,10 @@ body {
     background-color: #f0f0f0;
 }
 
+#img{
+     style="display: none;"
+}
+
 .login-container {
     background: #fff;
     padding: 20px;
